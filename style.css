@@ -22,8 +22,8 @@ a{font-size: 60px;text-decoration: none;padding: 5px 10px;
 #yes{color:#BC8F8F;background:;}
 
 .yes img{
-	height: 100px;
-	width: 100px;
+	height: 80px;
+	width: 80px;
 	animation: image 4s linear infinite;
 }
 @keyframes image{
