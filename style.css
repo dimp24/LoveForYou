@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline:0;
+}
+.container{
+	height: 100vh;
+	width: 100vw;
+	text-align:center;
+	color:#333;
+	background: #DB7093;
+
+}
+.love,.yes,.no{padding-top: 15%;
+		
+		}
+.love span{color: #FFF0F5;}
+h2{font-size: 70px;margin-bottom: 20px; font-family: "Courier New", monospace;}
+a{font-size: 30px;text-decoration: none;padding: 5px 10px;
+	margin-top: 10px;border:1px solid #000; border-radius: 10px; font-family: "Lucinda Consle",  monospace; color:#000000}
+#no{color:#BC8F8F; background: #black;margin-right: 50px;}
+#yes{color:#BC8F8F;background:;}
+
+.yes img{
+	height: 50px;
+	width: 50px;
+	animation: image 4s linear infinite;
+}
+@keyframes image{
+	0%{transform: scale(.5);}
+	50%{transform: scale(1.5);}
+	100%{transform: scale(.5);}
+}
